@@ -1,4 +1,28 @@
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(to bottom right, #2f2fa2, #242582);
+  color: white;
+  text-shadow: .02em .02em #f64c72;
+}
+
+.js {
+  font-family: 'Signika', sans-serif;
+}
+
+.selectors {
+  margin: 3em 0;
+}
+
+@media screen and (max-width: 720px) {
+  .selectors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 14em;
+  }
 }

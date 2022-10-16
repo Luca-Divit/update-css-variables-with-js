@@ -6,15 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Update CSS variables using JS</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Signika&display=swap');
+  </style>
 </head>
 <body>
-  <h1>Update CSS variables using <span>JavaScript</span></h1>
+  <h1>Update CSS variables using <span class="js">JavaScript</span></h1>
   <div class="selectors">
     <label for="spacing">Spacing:</label>
     <input type="range" name="spacing" id="spacing" min="0" max="250">
     <label for="blur">Blur:</label>
     <input type="range" name="blur" id="blur" min="0" max="250">
-    <label for="spacing">Color:</label>
+    <label for="color">Color:</label>
     <input type="color" name="color" id="color">
   </div>
   <div class="container">
