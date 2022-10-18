@@ -1,11 +1,11 @@
 :root {
-  --spacing: 3em;
+  --spacing: 2em;
   --color: #f64c72;
-  --blur: 1.5rem;
+  --blur: blur(.5em);
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   min-height: 100vh;
   text-align: center;
@@ -17,10 +17,17 @@ body {
 
 .js {
   font-family: 'Signika', sans-serif;
+  color: var(--color);
 }
 
 .selectors {
   margin: 3em 0;
+}
+
+.image {
+  padding: var(--spacing);
+  background-color: var(--color);
+  filter: var(--blur);
 }
 
 @media screen and (max-width: 720px) {
