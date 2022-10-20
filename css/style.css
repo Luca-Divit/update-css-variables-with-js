@@ -24,6 +24,17 @@ body {
   margin: 3em 0;
 }
 
+#spacing:hover {
+  cursor: pointer;
+}
+
+#blur:hover {
+  cursor: pointer;
+}
+
+#color:hover {
+  cursor: pointer;
+}
 .image {
   padding: var(--spacing);
   background-color: var(--color);
